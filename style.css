@@ -1,3 +1,15 @@
+@font-face {
+  font-family: flor;
+  src: url("fonts/flor-font/FlorPersonalUseRegular-rgpoy.ttf");
+}
+@font-face {
+  font-family: biancha;
+  src: url("fonts/biancha-font/Biancha-X3VOa.otf");
+}
+@font-face {
+  font-family: genos;
+  src: url("fonts/Genos/Genos-VariableFont_wght.ttf");
+}
 *{
   padding: 0;
   margin: 0;
@@ -17,7 +29,6 @@ body{
  background-color: #fff;
   color:#000;
 }
-
 body[theme="black"]{
   background-color: #000;
   color:#fff;
@@ -164,4 +175,13 @@ body[theme="green"] #mouse{
 }
 details summary{
   cursor: none;
+}
+.flor{
+  font-family: flor;
+}
+.biancha{
+  font-family: biancha;
+}
+.genos{
+  font-family: genos;
 }
